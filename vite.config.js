@@ -4,6 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 import fg from "fast-glob";
 
 export default defineConfig({
+    define: {
+        global: 'window',
+    },
     server: {
         cors: {
             origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|percinmedya\.test|percinmedia\.com|127\.0\.0\.1|\[::1\])(?::\d+)?$/,
@@ -12,19 +15,10 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/scss/app.scss',
-                'resources/js/app.js',
                 ...fg.sync('resources/**/*.{jpg,png,svg,webp,jpeg,pneg,avif}')
             ],
             refresh: true,
         }),
         tailwindcss(),
-    ],
-    resolve: {
-        alias: {
-            '@js': '/resources/assets/js',
-            '@css': '/resources/assets/css',
-            '@scss': '/resources/assets/scss',
-        }
-    }
+    ]
 });

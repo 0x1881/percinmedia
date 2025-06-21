@@ -1,4 +1,5 @@
 @includeWhen(app()->isProduction(), 'partials.preloader')
+<!-- Offcanvas Area Start -->
 <div class="fix-area">
     <div class="offcanvas__info">
         <div class="offcanvas__wrapper">
@@ -223,7 +224,6 @@
                     </div>
                 </div>
                 <div class="header-right d-flex justify-content-end align-items-center">
-                    <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a>
                     <div class="main-button">
                         <a href="contact.html"> <span class="theme-btn"> Get Started </span><span class="arrow-btn"><i
                                     class="fa-regular fa-arrow-up-right"></i></span></a>

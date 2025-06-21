@@ -1,3 +1,4 @@
+<!-- Preloader Start -->
 <div id="preloader" class="preloader">
     <div class="animation-preloader">
         <div class="spinner">
@@ -51,3 +52,4 @@
 <!--<< Mouse Cursor Start >>-->
 <div class="mouse-cursor cursor-outer"></div>
 <div class="mouse-cursor cursor-inner"></div>
+

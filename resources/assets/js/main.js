@@ -18,8 +18,8 @@ CSS TABLE OF CONTENTS
 06. nice select
 07. swiper slider
 08. search popup
-09. mousecursor 
-09. preloader 
+09. mousecursor
+09. preloader
 
 
 ------------------------------------------------------------------*/
@@ -76,7 +76,7 @@ CSS TABLE OF CONTENTS
             callbacks: {
             }
         });
-        
+
         //>> Counterup Start <<//
         $(".count").counterUp({
             delay: 15,
@@ -193,7 +193,7 @@ CSS TABLE OF CONTENTS
             const dy = event.clientY - contentBox.y;
             caseStudiesItems.children[2].style.transform = `translate(${dx}px, ${dy}px) rotate(-12.317deg)`;
         }
-        
+
         caseStudiesItems.forEach((item, i) => {
             item.addEventListener("mousemove", (event) => {
                 setInterval(followImageCursor(event, item), 1000);
@@ -387,7 +387,7 @@ CSS TABLE OF CONTENTS
 
         // circle-progress
         $(".circle-bar").loading();
-       
+
 
     }); // End Document Ready Function
 
@@ -443,13 +443,13 @@ CSS TABLE OF CONTENTS
     function loader() {
         $(window).on('load', function() {
             // Animate loader off screen
-            $(".preloader").addClass('loaded');                    
-            $(".preloader").delay(600).fadeOut();                       
+            $(".preloader").addClass('loaded');
+            $(".preloader").delay(600).fadeOut();
         });
     }
 
     loader();
-   
+
 
 })(jQuery); // End jQuery
 
