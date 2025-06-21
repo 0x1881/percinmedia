@@ -1,0 +1,70 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+
+    - name: Set up SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.VPS_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan 91.99.105.98 >> ~/.ssh/known_hosts
+
+    - name: Deploy to VPS
+      run: |
+        ssh -tt -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa dijilight@91.99.105.98 << 'EOF'
+          cd /home/dijilight/htdocs/dijilight.org
+
+          php artisan down
+
+          if [ ! -d ".git" ]; then
+            git clone git@github.com:dijilight/website.git .
+          else
+            git fetch origin main
+            CHANGED_FILES=$(git diff --name-only HEAD origin/main)
+            git reset --hard origin/main
+          fi
+
+          NEED_COMPOSER_INSTALL=false
+          NEED_NPM_INSTALL=false
+          NEED_NPM_BUILD=false
+
+          echo "$CHANGED_FILES" | grep -E 'composer\.json|composer\.lock' && NEED_COMPOSER_INSTALL=true
+          echo "$CHANGED_FILES" | grep -E 'package(-lock)?\.json' && NEED_NPM_INSTALL=true
+          echo "$CHANGED_FILES" | grep -E 'resources/|vite\.config\.js|tailwind\.config\.js' && NEED_NPM_BUILD=true
+
+
+          if [ "$NEED_COMPOSER_INSTALL" = true ]; then
+            composer install --no-dev --no-interaction
+          fi
+
+          php artisan config:clear
+          php artisan optimize
+          php artisan migrate --force
+          php artisan app:user:permissions
+          php artisan config:cache
+          php artisan route:cache
+          php artisan up
+
+          if [ "$NEED_NPM_INSTALL" = true ]; then
+            npm install
+          fi
+
+          if [ "$NEED_NPM_INSTALL" = true ] || [ "$NEED_NPM_BUILD" = true ]; then
+            rm -rf public/build_temp
+            npm run build -- --outDir public/build_temp
+            rm -rf public/build
+            mv public/build_temp public/build
+          fi
+
+          exit
+        EOF
