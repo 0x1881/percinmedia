@@ -27,37 +27,25 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <h3>Quick Links</h3>
+                            <h3>Perçin Media</h3>
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="about.html">
+                                <a href="/hakkimizda">
                                     <i class="fa-solid fa-chevrons-right"></i>
-                                    Digtek About
+                                    Hakkımızda
                                 </a>
                             </li>
                             <li>
-                                <a href="service.html">
+                                <a href="/hizmetlerimiz">
                                     <i class="fa-solid fa-chevrons-right"></i>
-                                    Our Services
+                                    Hizmetlerimiz
                                 </a>
                             </li>
                             <li>
-                                <a href="news.html">
+                                <a href="/iletisim">
                                     <i class="fa-solid fa-chevrons-right"></i>
-                                    Our Blogs
-                                </a>
-                            </li>
-                            <li>
-                                <a href="faq.html">
-                                    <i class="fa-solid fa-chevrons-right"></i>
-                                    FAQâ€™S
-                                </a>
-                            </li>
-                            <li>
-                                <a href="contact.html">
-                                    <i class="fa-solid fa-chevrons-right"></i>
-                                    Contact Us
+                                    İletişim
                                 </a>
                             </li>
                         </ul>
@@ -119,11 +107,11 @@
                             <ul class="contact-info">
                                 <li>
                                     <i class="fa-regular fa-envelope"></i>
-                                    <a href="mailto:info@example.com">info@example.com</a>
+                                    <a href="mailto:iletisim@percinmedia.com">iletisim@percinmedia.com</a>
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-phone-volume"></i>
-                                    <a href="tel:2086660112">+208-666-0112</a>
+                                    <a href="tel:0905541333930">+90 554 133 39 30</a>
                                 </li>
                             </ul>
                         </div>
@@ -136,7 +124,7 @@
         <div class="container">
             <div class="footer-wrapper d-flex align-items-center justify-content-between">
                 <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-                    &copy; {{ date('Y') }} Tüm hakları saklıdır. by <a href="https://dijilight.org" style="color: yellow">Dijilight</a>
+                    &copy; {{ date('Y') }} Tüm hakları saklıdır. Powered by <a href="https://dijilight.org" style="color: yellow">Dijilight</a>
                 </p>
             </div>
         </div>

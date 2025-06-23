@@ -9,7 +9,7 @@
     <title>{{ $meta['title'] }}</title>
 
     <!-- Meta Data -->
-    <meta name="description" content="{{ $meta['title'] }}"/>
+    <meta name="description" content="{{ $meta['description'] }}"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="canonical" href="{{ request()->url() }}"/>
 
@@ -28,9 +28,13 @@
 </head>
 <body>
 
-@includeWhen($header, 'partials.header')
-{{ $slot }}
-@includeWhen($footer, 'partials.footer')
+<main style="width: 100%;">
+    @includeWhen($header, 'partials.header')
+    <div style="flex: 1; overflow-y: auto; overflow-x: hidden">
+        {{ $slot }}
+    </div>
+    @includeWhen($footer, 'partials.footer')
+</main>
 
 <script src="{{ Vite::asset('resources/assets/js/jquery-3.7.1.min.js') }}"></script>
 <script src="{{ Vite::asset('resources/assets/js/viewport.jquery.js') }}"></script>
