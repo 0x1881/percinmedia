@@ -78,17 +78,23 @@
 <div class="offcanvas__overlay"></div>
 
 <!-- Header Section Start -->
-<header id="header-sticky" class="header-1">
+<header id="header-sticky" @class(['header-1', 'style-2' => $style2])>
     <div class="container-fluid">
         <div class="mega-menu-wrapper">
             <div class="header-main">
                 <div class="logo">
-                    <a href="/" class="header-logo">
-                        <img src="{{ Vite::asset("resources/assets/img/logo/white-logo.svg") }}" alt="logo-img">
-                    </a>
-                    <a href="/" class="header-logo-2">
-                        <img src="{{ Vite::asset("resources/assets/img/logo/black-logo.svg") }}" alt="logo-img">
-                    </a>
+                    @if ($headerLogo3)
+                        <a href="/" class="header-logo-3">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/black-logo.svg") }}" alt="logo-img">
+                        </a>
+                    @else
+                        <a href="/" class="header-logo">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/white-logo.svg") }}" alt="logo-img">
+                        </a>
+                        <a href="/" class="header-logo-2">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/black-logo.svg") }}" alt="logo-img">
+                        </a>
+                    @endif
                 </div>
                 <div class="mean__menu-wrapper">
                     <div class="main-menu">
@@ -105,11 +111,9 @@
                                         <i class="fa-solid fa-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li><a href="/dijital-pazarlama">Dijital Pazarlama</a></li>
-                                        <li><a href="/sosyal-medya">Sosyal Medya</a></li>
-                                        <li><a href="/website">Website</a></li>
-                                        <li><a href="/google-ads">Google Ads</a></li>
-                                        <li><a href="/meta-business">Meta Business</a></li>
+                                        <li><a href="/hizmetlerimiz/google-ads">Google Ads Danışmanlığı</a></li>
+                                        <li><a href="/hizmetlerimiz/meta-business">Meta Reklam Yönetimi</a></li>
+                                        <li><a href="/hizmetlerimiz/website">Web Site Tasarımı</a></li>
                                     </ul>
                                 </li>
                                 <li>

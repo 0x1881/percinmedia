@@ -12,7 +12,7 @@ Version: 1.0.0
     --body: #fff;
     --black: #000;
     --white: #fff;
-    --theme: #6A47ED;
+    --theme: #148484;
     --theme2: #C6F806;
     --header: #17012C;
     --text: #504E4E;
@@ -6075,7 +6075,7 @@ input.main-search-input::placeholder {
 }
 
 .footer-bg {
-    background-color: #18185E;
+    background-color: #14a198;
 }
 
 .section-padding {

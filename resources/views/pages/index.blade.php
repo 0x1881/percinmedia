@@ -71,139 +71,7 @@
         </div>
     </section>
 
-    <!-- Marque Section Start -->
-    <div class="marquee-section-1">
-        <div class="mycustom-marque style-2">
-            <div class="scrolling-wrap">
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-            </div>
-        </div>
-        <div class="mycustom-marque style-3">
-            <div class="scrolling-wrap">
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-                <div class="comm">
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                    <div class="cmn-textslide"><img src="{{ Vite::asset('resources/assets/img/star.png') }}" alt="img">THE BEST SOULTION</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Service Section Start -->
-    <section class="service-section fix section-padding">
-        <div class="left-shape float-bob-y">
-            <img src="{{ Vite::asset('resources/assets/img/service/left-shape.png') }}" alt="img">
-        </div>
-        <div class="right-shape">
-            <img src="{{ Vite::asset('resources/assets/img/service/right-shape.png') }}" alt="img">
-        </div>
-        <div class="bg-shape">
-            <img src="{{ Vite::asset('resources/assets/img/service/bg-shape.png') }}" alt="img">
-        </div>
-        <div class="container">
-            <div class="section-title-area">
-                <div class="section-title">
-                    <div class="sub-title wow fadeInUp">
-                        <span>WHY services uS</span>
-                    </div>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                        Use SEO to Drive Growth <br> at Your Business
-                    </h2>
-                </div>
-                <p class="wow fadeInUp" data-wow-delay=".5s">
-                    Pellentesque ut vehicula sapien <br> dictumst. Maecenas ante.
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="service-box-items">
-                        <div class="icon">
-                            <img src="{{ Vite::asset('resources/assets/img/service/icon-1.png') }}" alt="img">
-                        </div>
-                        <div class="content">
-                            <h4><a href="service-details.html">Digital Marketing</a></h4>
-                            <p>Lorem dolor amet consectetur read adipiscing any more elit.</p>
-                            <a href="service-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="service-box-items">
-                        <div class="icon">
-                            <img src="{{ Vite::asset('resources/assets/img/service/icon-2.png') }}" alt="img">
-                        </div>
-                        <div class="content">
-                            <h4><a href="service-details.html">SEO Analytics</a></h4>
-                            <p>Lorem dolor amet consectetur read adipiscing any more elit.</p>
-                            <a href="service-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="service-box-items">
-                        <div class="icon">
-                            <img src="{{ Vite::asset('resources/assets/img/service/icon-3.png') }}" alt="img">
-                        </div>
-                        <div class="content">
-                            <h4><a href="service-details.html">Social Marketing</a></h4>
-                            <p>Lorem dolor amet consectetur read adipiscing any more elit.</p>
-                            <a href="service-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('partials.services', ['viewAll' => true])
 
     <!-- About Section Start -->
     <section class="about-section fix section-padding" style="background-image: url('{{ Vite::asset('resources/assets/img/about/about-bg.png')}}');">
@@ -242,15 +110,12 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="about-image">
-                            <img src="{{ Vite::asset('resources/assets/img/about/01.png') }}" alt="img" class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                            <img src="{{ Vite::asset('resources/assets/images/index/01.png') }}" alt="img" class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
                             <div class="bg-shape">
                                 <img src="{{ Vite::asset('resources/assets/img/about/bg-shape.png') }}" alt="img">
                             </div>
                             <div class="grap-shape float-bob-x">
                                 <img src="{{ Vite::asset('resources/assets/img/about/grap.png') }}" alt="img">
-                            </div>
-                            <div class="box-shape float-bob-y">
-                                <img src="{{ Vite::asset('resources/assets/img/about/box-shape.png') }}" alt="img">
                             </div>
                             <div class="emoji-shape">
                                 <img src="{{ Vite::asset('resources/assets/img/about/emoji.png') }}" alt="img">
@@ -261,167 +126,37 @@
                         <div class="about-content">
                             <div class="section-title">
                                 <div class="sub-title bg-color-2 wow fadeInUp">
-                                    <span>ABOUT COMPANY</span>
+                                    <span>HAKKIMIZDA</span>
                                 </div>
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Skills to improve Your Company Brand
+                                    Dijital Reklamla Büyümeye Şimdi Başla!
                                 </h2>
                             </div>
                             <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point established fact that
+                                Veri analizi, doğru hedefleme ve yaratıcı içerikle kampanyalarınızı maksimum dönüşüm sağlayacak şekilde optimize ediyoruz.
                             </p>
                             <div class="circle-progress-bar-wrapper">
                                 <div class="single-circle-bar wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="circle-bar" data-percent="65" data-duration="2000">
+                                    <div class="circle-bar" data-percent="85" data-duration="2000">
                                     </div>
                                     <div class="content">
                                         <h6>
-                                            Paid search <br> marketing
+                                            Hedef Odaklı <br> Reklam Performansı
                                         </h6>
                                     </div>
                                 </div>
                                 <div class="single-circle-bar wow fadeInUp" data-wow-delay=".5s">
-                                    <div class="circle-bar" data-percent="95" data-duration="2000">
+                                    <div class="circle-bar" data-percent="90" data-duration="2000">
                                     </div>
                                     <div class="content">
                                         <h6>
-                                            Search engine <br> optimization
+                                            Dönüşüm <br> Oranı
                                         </h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="main-button wow fadeInUp" data-wow-delay=".3s">
-                                <a href="about.html"> <span class="theme-btn"> EXPLORE MORE </span><span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Case Study Section Start -->
-    <section class="case-study-section fix section-padding">
-        <div class="overlay-shape">
-            <img src="{{ Vite::asset('resources/assets/img/case-studies/overlay-shape.png') }}" alt="img">
-        </div>
-        <div class="left-shape float-bob-x">
-            <img src="{{ Vite::asset('resources/assets/img/case-studies/left-shape.png') }}" alt="img">
-        </div>
-        <div class="right-shape float-bob-x">
-            <img src="{{ Vite::asset('resources/assets/img/case-studies/right-shaape.png') }}" alt="img">
-        </div>
-        <div class="container">
-            <div class="section-title-area">
-                <div class="section-title">
-                    <div class="sub-title wow fadeInUp">
-                        <span>Case Studies</span>
-                    </div>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                        We Are A Creative Digital <br>
-                        Marketing Agency
-                    </h2>
-                </div>
-                <div class="main-button wow fadeInUp" data-wow-delay=".5s">
-                    <a href="about.html"> <span class="theme-btn"> EXPLORE MORE </span><span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span></a>
-
-                </div>
-            </div>
-            <div class="case-study-wrapper">
-                <div class="row">
-                    <div class="col-xxl-6 wow fadeInUp">
-                        <div class="case-study-box-items">
-                            <div class="thumb">
-                                <img src="{{ Vite::asset('resources/assets/img/case-studies/01.jpg') }}" alt="img">
-                                <div class="post-box-items">
-                                    <ul>
-                                        <li>
-                                            <a href="project-details.html">Real-time Analytics <i class="fa-regular fa-arrow-up-right"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="project-details.html">Social <i class="fa-regular fa-arrow-up-right"></i></a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="project-details.html">Agile Advance <i class="fa-regular fa-arrow-up-right"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="project-details.html">Advance <i class="fa-regular fa-arrow-up-right"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="project-title">
-                                    <a href="project-details.html">
-                                        <img src="{{ Vite::asset('resources/assets/img/case-studies/icon.png') }}" alt="img">
-                                        Rising Stars Obscure
-                                    </a>
-                                </h3>
-                                <span class="number">01</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6">
-                        <div class="main-box">
-                            <div class="box wow fadeInUp">
-                                <div class="title-items">
-                                    <h3><a href="project-details.html">Digital Marketing</a></h3>
-                                    <span class="number">02</span>
-                                </div>
-                                <span class="number-hover">02</span>
-                                <div class="project-content">
-                                    <h3><a href="project-details.html">Digital Marketing</a></h3>
-                                    <p>
-                                        Reprehendeirure  irit in volut
-                                        ate velit esse cillum dolDuis aute irure dolor in ore
-                                    </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                            <div class="box bg-1 wow fadeInUp wow" data-wow-delay=".2s">
-                                <div class="title-items">
-                                    <h3><a href="project-details.html">Instantly Analyze</a></h3>
-                                    <span class="number">03</span>
-                                </div>
-                                <span class="number-hover">03</span>
-                                <div class="project-content">
-                                    <h3><a href="project-details.html">Instantly Analyze</a></h3>
-                                    <p>
-                                        Reprehendeirure  irit in volut
-                                        ate velit esse cillum dolDuis aute irure dolor in ore
-                                    </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                            <div class="box bg-2 active wow fadeInUp wow" data-wow-delay=".4s">
-                                <div class="title-items">
-                                    <h3><a href="project-details.html">Web & Mobile</a></h3>
-                                    <span class="number">04</span>
-                                </div>
-                                <span class="number-hover">04</span>
-                                <div class="project-content">
-                                    <h3><a href="project-details.html">Web & Mobile</a></h3>
-                                    <p>
-                                        Reprehendeirure  irit in volut
-                                        ate velit esse cillum dolDuis aute irure dolor in ore
-                                    </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                            <div class="box bg-3 wow fadeInUp wow" data-wow-delay=".6s">
-                                <div class="title-items">
-                                    <h3><a href="project-details.html">Email marketing</a></h3>
-                                    <span class="number">05</span>
-                                </div>
-                                <span class="number-hover">05</span>
-                                <div class="project-content">
-                                    <h3><a href="project-details.html">Email marketing</a></h3>
-                                    <p>
-                                        Reprehendeirure  irit in volut
-                                        ate velit esse cillum dolDuis aute irure dolor in ore
-                                    </p>
-                                    <a href="project-details.html" class="link-btn">Read More <i class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
+                                <a href="/hakkimizda"> <span class="theme-btn"> BİZİ KEŞFET </span><span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -439,7 +174,7 @@
                         <div class="audience-content">
                             <div class="section-title">
                                 <div class="sub-title bg-color-3 wow fadeInUp">
-                                    <span class="wow fadeInUp">Success Stories</span>
+                                    <span class="wow fadeInUp">BAŞARI HİKAYEMİZ</span>
                                 </div>
                                 <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
                                     Organic Audience Driven On Your Websites
@@ -447,10 +182,10 @@
                             </div>
                             <div class="client-items wow fadeInUp" data-wow-delay=".5s">
                                 <div class="client-logo">
-                                    <img src="{{ Vite::asset('resources/assets/img/hero/logo.png') }}" alt="img">
+                                    <img width="150" height="50" src="{{ Vite::asset('resources/assets/images/index/Trustpilot_Logo_(2022).svg') }}" alt="img">
                                 </div>
                                 <div class="client-img">
-                                    <img src="{{ Vite::asset('resources/assets/img/hero/client.png') }}" alt="img">
+                                    <img src="{{ Vite::asset('resources/assets/images/index/audience-clients.png') }}" alt="img">
                                     <div class="star-icon">
                                         <div class="star">
                                             <i class="fa-solid fa-star"></i>
@@ -468,7 +203,7 @@
                     <div class="col-lg-8">
                         <div class="audience-right">
                             <div class="audience-img wow fadeInUp" data-wow-delay=".3s">
-                                <img src="{{ Vite::asset('resources/assets/img/audience-img.jpg') }}" alt="img">
+                                <img src="{{ Vite::asset('resources/assets/images/index/audience-img.jpg') }}" alt="img">
                             </div>
                             <div class="counter-box-area">
                                 <div class="counter-box wow fadeInUp" data-wow-delay=".5s">
@@ -1180,24 +915,24 @@
         </div>
     </section>
 
-    <!-- Cta Section Start -->
-    <section class="cta-section section-bg section-padding pb-0">
-        <div class="rokect-shape float-bob-y">
-            <img src="{{ Vite::asset('resources/assets/img/rokect.png') }}" alt="img">
-        </div>
-        <div class="container">
-            <div class="cta-wrapper bg-cover" style="background-image: url('{{ Vite::asset('resources/assets/img/cta-bg.jpg') }}');">
-                <div class="cta-img wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                    <img src="{{ Vite::asset('resources/assets/img/cta-img.png') }}" alt="img">
-                </div>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                    Stay Connected With <br> Cutting Edge IT
-                </h2>
-                <div class="main-button wow fadeInUp" data-wow-delay=".5s">
-                    <a href="contact.html"> <span class="theme-btn"> talk TO  A SPECIALIST </span><span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span></a>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <!-- Cta Section Start -->--}}
+{{--    <section class="cta-section section-bg section-padding pb-0">--}}
+{{--        <div class="rokect-shape float-bob-y">--}}
+{{--            <img src="{{ Vite::asset('resources/assets/img/rokect.png') }}" alt="img">--}}
+{{--        </div>--}}
+{{--        <div class="container">--}}
+{{--            <div class="cta-wrapper bg-cover" style="background-image: url('{{ Vite::asset('resources/assets/img/cta-bg.jpg') }}');">--}}
+{{--                <div class="cta-img wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">--}}
+{{--                    <img src="{{ Vite::asset('resources/assets/img/cta-img.png') }}" alt="img">--}}
+{{--                </div>--}}
+{{--                <h2 class="wow fadeInUp" data-wow-delay=".3s">--}}
+{{--                    Stay Connected With <br> Cutting Edge IT--}}
+{{--                </h2>--}}
+{{--                <div class="main-button wow fadeInUp" data-wow-delay=".5s">--}}
+{{--                    <a href="contact.html"> <span class="theme-btn"> talk TO  A SPECIALIST </span><span class="arrow-btn"><i class="fa-regular fa-arrow-up-right"></i></span></a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 </x-layouts.app>

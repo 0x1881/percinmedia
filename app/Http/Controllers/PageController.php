@@ -16,8 +16,8 @@ class PageController extends Controller
                 'title' => 'Perçin Media',
                 'description' => '',
             ],
-            'hizmetler' => [
-                'title' => 'Hizmetler - Perçin Media',
+            'hizmetlerimiz' => [
+                'title' => 'Hizmetlerimiz - Perçin Media',
                 'description' => '',
             ],
             'hakkimizda' => [
@@ -28,23 +28,23 @@ class PageController extends Controller
                 'title' => 'İletişim - Perçin Media',
                 'description' => '',
             ],
-            'hizmetler/dijital-pazarlama' => [
+            'hizmetlerimiz/dijital-pazarlama' => [
                 'title' => 'Dijital Pazarlama - Perçin Media',
                 'description' => '',
             ],
-            'hizmetler/google-ads' => [
+            'hizmetlerimiz/google-ads' => [
                 'title' => 'Google Ads - Perçin Media',
                 'description' => '',
             ],
-            'hizmetler/meta-business' => [
+            'hizmetlerimiz/meta-business' => [
                 'title' => 'Meta Business - Perçin Media',
                 'description' => '',
             ],
-            'hizmetler/sosyal-medya' => [
+            'hizmetlerimiz/sosyal-medya' => [
                 'title' => 'Sosyal Medya - Perçin Media',
                 'description' => '',
             ],
-            'hizmetler/website' => [
+            'hizmetlerimiz/website' => [
                 'title' => 'Website - Perçin Media',
                 'description' => '',
             ],

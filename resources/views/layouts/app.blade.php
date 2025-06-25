@@ -1,5 +1,5 @@
-@props(['header' => true, 'footer' => true])
-    <!DOCTYPE html>
+@props(['header' => true, 'footer' => true, 'style2' => false, 'headerLogo3' => false])
+<!DOCTYPE html>
 <html lang="tr">
 
 <head>
@@ -29,7 +29,7 @@
 <body>
 
 <main style="width: 100%;">
-    @includeWhen($header, 'partials.header')
+    @includeWhen($header, 'partials.header', ['style2' => $style2, 'headerLogo3' => $headerLogo3])
     <div style="flex: 1; overflow-y: auto; overflow-x: hidden">
         {{ $slot }}
     </div>
