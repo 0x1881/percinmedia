@@ -37,7 +37,7 @@
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="mailto:iletisim@percinmedia.com"><span>iletisim@percinmedia.com</span></a>
+                                <a href="mailto:iletisim@percinmedia.net"><span>iletisim@percinmedia.net</span></a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -53,7 +53,7 @@
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="tel:+905541333930">+90 554 133 39 30</a>
+                                <a href="tel:+905010063434">0 (501) 006 34 34</a>
                             </div>
                         </li>
                     </ul>

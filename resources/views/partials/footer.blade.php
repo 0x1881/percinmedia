@@ -135,11 +135,11 @@
                             <ul class="contact-info">
                                 <li>
                                     <i class="fa-regular fa-envelope"></i>
-                                    <a href="mailto:iletisim@percinmedia.com">iletisim@percinmedia.com</a>
+                                    <a href="mailto:iletisim@percinmedia.net">iletisim@percinmedia.net</a>
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-phone-volume"></i>
-                                    <a href="tel:0905541333930">+90 554 133 39 30</a>
+                                    <a href="tel:+905010063434">0 (501) 006 34 34</a>
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-map-marker"></i>
