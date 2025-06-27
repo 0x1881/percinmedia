@@ -9,13 +9,13 @@ export default defineConfig({
     },
     server: {
         cors: {
-            origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|percinmedya\.test|percinmedia\.com|127\.0\.0\.1|\[::1\])(?::\d+)?$/,
+            origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|percinmedya\.test|percinmedia\.net|percin\.0x1881\.me|127\.0\.0\.1|\[::1\])(?::\d+)?$/,
         },
     },
     plugins: [
         laravel({
             input: [
-                ...fg.sync('resources/**/*.{jpg,png,svg,webp,jpeg,pneg,avif}')
+                ...fg.sync('resources/**/*.{jpg,png,svg,webp,jpeg,pneg,avif,css,js}')
             ],
             refresh: true,
         }),
