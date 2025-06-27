@@ -28,6 +28,14 @@ class PageController extends Controller
                 'title' => 'İletişim - Perçin Media',
                 'description' => '',
             ],
+            'gizlilik-politikasi' => [
+                'title' => 'Gizlilik Politikası - Perçin Media',
+                'description' => '',
+            ],
+            'cerez-politikasi' => [
+                'title' => 'Çerez Politikası - Perçin Media',
+                'description' => '',
+            ],
             'hizmetlerimiz/dijital-pazarlama' => [
                 'title' => 'Dijital Pazarlama - Perçin Media',
                 'description' => '',
