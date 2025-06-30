@@ -3,52 +3,52 @@
         <script src="/assets/js/ajax-mail.js"></script>
     @endpush
     <!-- Hero Section Start -->
-    <section class="hero-section fix hero-1 bg-cover" style="background-image: url('{{ Vite::asset('resources/assets/img/hero/new/hero7.png') }}');">
-        <div class="mike-shape">
-            <img src="{{ Vite::asset('resources/assets/img/hero/mike-shape.png') }}" alt="img">
-        </div>
+    <section class="hero-section fix hero-1 bg-cover" style="background-image: url('{{ Vite::asset('resources/assets/img/hero/new/hero6.png') }}');">
+{{--        <div class="mike-shape">--}}
+{{--            <img src="{{ Vite::asset('resources/assets/img/hero/mike-shape.png') }}" alt="img">--}}
+{{--        </div>--}}
         <div class="arrow-shape">
             <img src="{{ Vite::asset('resources/assets/img/hero/arrow-shape.png') }}" alt="img">
         </div>
         <div class="arrow-shape-2">
             <img src="{{ Vite::asset('resources/assets/img/hero/arrow-shape.png') }}" alt="img">
         </div>
-        <div class="energy-shape float-bob-y">
-            <img src="{{ Vite::asset('resources/assets/img/hero/energy-shape.png') }}" alt="img">
-        </div>
+{{--        <div class="energy-shape float-bob-y">--}}
+{{--            <img src="{{ Vite::asset('resources/assets/img/hero/energy-shape.png') }}" alt="img">--}}
+{{--        </div>--}}
         <div class="rocket-shape">
             <img src="{{ Vite::asset('resources/assets/img/hero/rocket.png') }}" alt="img" class="float-bob-y">
         </div>
         <div class="container-fluid">
-            <div class="hero-title wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                <img src="{{ Vite::asset('resources/assets/img/hero/hero-text.png') }}" alt="img">
-            </div>
+{{--            <div class="hero-title wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">--}}
+{{--                <img src="{{ Vite::asset('resources/assets/img/hero/hero-text.png') }}" alt="img">--}}
+{{--            </div>--}}
             <div class="row g-4 align-items-center">
                 <div class="col-xl-5 col-lg-6">
                     <div class="hero-content">
-                        <span class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.2s">go for advertising</span>
-                        <h1 class="wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s">think digital</h1>
+                        <span class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.2s">HEMEN BAŞLAYIN</span>
+                        <h1 class="wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s">Dijitalde Fark Yaratın!</h1>
                         <p class="wow fadeInUp" data-wow-delay=".3s">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  randomised
+                            Hedef odaklı reklamlar, özgün web siteleri ve dijital çözümlerle markanızı bir adım öne taşıyoruz.
                         </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6">
                     <div class="hero-image">
-                        <img src="{{ Vite::asset('resources/assets/img/hero/hero-image.png') }}" alt="img" class=" wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                        <div class="bg-shape">
-                            <img src="{{ Vite::asset('resources/assets/img/hero/bg-shape.png') }}" alt="img">
-                        </div>
+                        <img src="{{ Vite::asset('resources/assets/img/hero/new/hero-image.png') }}" alt="img" class=" wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
+{{--                        <div class="bg-shape">--}}
+{{--                            <img src="{{ Vite::asset('resources/assets/img/hero/bg-shape.png') }}" alt="img">--}}
+{{--                        </div>--}}
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6">
                     <div class="video-right">
                         <div class="client-items wow fadeInUp" data-wow-delay=".7s">
                             <div class="client-logo">
-                                <img src="{{ Vite::asset('resources/assets/img/hero/logo.png') }}" alt="img">
+                                <img width="150" height="50" src="{{ Vite::asset('resources/assets/images/index/Trustpilot_Logo_(2022).svg') }}" alt="img">
                             </div>
                             <div class="client-img">
-                                <img src="{{ Vite::asset('resources/assets/img/hero/client.png') }}" alt="img">
+                                <img src="{{ Vite::asset('resources/assets/images/index/audience-clients.png') }}" alt="img">
                                 <div class="star-icon">
                                     <div class="star">
                                         <i class="fa-solid fa-star"></i>
@@ -57,7 +57,7 @@
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-regular fa-star"></i>
                                     </div>
-                                    <span>450+ reviews</span>
+                                    <span>450+ Olumlu Sonuç</span>
                                 </div>
                             </div>
                         </div>
@@ -81,22 +81,22 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="{{ Vite::asset('resources/assets/img/brand/01.png') }}" alt="img">
+                                <img src="{{ Vite::asset('resources/assets/img/brand/1.png') }}" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="{{ Vite::asset('resources/assets/img/brand/02.png') }}" alt="img">
+                                <img src="{{ Vite::asset('resources/assets/img/brand/2.png') }}" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="{{ Vite::asset('resources/assets/img/brand/03.png') }}" alt="img">
+                                <img src="{{ Vite::asset('resources/assets/img/brand/3.png') }}" alt="img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-img center">
-                                <img src="{{ Vite::asset('resources/assets/img/brand/04.png') }}" alt="img">
+                                <img src="{{ Vite::asset('resources/assets/img/brand/4.png') }}" alt="img">
                             </div>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="team-image">
-                            <img src="{{ Vite::asset('resources/assets/img/team/01.png') }}" alt="img" class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                            <img src="{{ Vite::asset('resources/assets/img/team/09.png') }}" alt="img" class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
                             <div class="shape-image">
                                 <img src="{{ Vite::asset('resources/assets/img/team/shape-img.png') }}" alt="img">
                             </div>
