@@ -48,6 +48,7 @@
 <script src="/assets/js/wow.min.js"></script>
 <script src="/assets/js/circle-progress.js"></script>
 <script src="/assets/js/main.js"></script>
+@stack('custom_scripts')
 
 </body>
 </html>

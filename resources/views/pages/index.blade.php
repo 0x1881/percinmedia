@@ -1,4 +1,7 @@
 <x-layouts.app>
+    @push('custom_scripts')
+        <script src="/assets/js/ajax-mail.js"></script>
+    @endpush
     <!-- Hero Section Start -->
     <section class="hero-section fix hero-1 bg-cover" style="background-image: url('{{ Vite::asset('resources/assets/img/hero/new/hero7.png') }}');">
         <div class="mike-shape">
@@ -505,7 +508,8 @@
                     <div class="col-xl-6">
                         <div class="contact-form-area">
                             <h3>İletişime Geçin</h3>
-                            <form action="#" id="contact-form" method="POST">
+                            <form action="/contact" id="contact-form" method="POST">
+                                @csrf
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="form-clt">
@@ -519,7 +523,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <input type="number" name="number" id="number" placeholder="Telefon Numarası">
+                                            <input type="tel" name="phone" id="phone" placeholder="Telefon Numarası">
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -533,6 +537,7 @@
                                             <i class="fa-solid fa-arrow-right ms-1"></i>
                                         </button>
                                     </div>
+                                    <div class="form-message col-lg-7 wow fadeInUp" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;"></div>
                                 </div>
                             </form>
                         </div>

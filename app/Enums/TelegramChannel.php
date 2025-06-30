@@ -12,11 +12,10 @@ enum TelegramChannel: string
     public function id(): string
     {
         return match ($this) {
-            self::general => '-1002679675506',
-            self::contact => '-1002679675506|6',
-            self::errors => '-1002679675506|4',
-            self::logs => '-1002679675506|2',
-            default => '-1002679675506',
+            self::contact => '-1002704411524|2',
+            self::errors => '-1002704411524|4',
+            self::logs => '-1002704411524|6',
+            default => '-1002704411524|1',
         };
     }
 

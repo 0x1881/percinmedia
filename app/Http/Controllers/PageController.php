@@ -85,6 +85,9 @@ class PageController extends Controller
 
         dispatch(new TelegramLog($message, TelegramChannel::contact));
 
-        return response('success');
+        return response()->json([
+            'success' => true,
+            'message' => 'Mesaj başarıyla gönderildi!',
+        ]);
     }
 }

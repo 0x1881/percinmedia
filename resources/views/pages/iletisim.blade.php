@@ -1,4 +1,8 @@
 <x-layouts.app :style2="true" :headerLogo3="true">
+    @push('custom_scripts')
+        <script src="/assets/js/ajax-mail.js"></script>
+    @endpush
+
     <div class="breadcrumb-wrapper bg-cover" style="background-image: url('{{ Vite::asset('resources/assets/images/services/1.png') }}');">
         <div class="container">
             <div class="page-heading">
@@ -71,7 +75,8 @@
                     <div class="col-lg-6">
                         <div class="contact-content">
                             <h2>İletişime Geç</h2>
-                            <form action="contact.php" id="contact-form" method="POST" class="contact-form-items">
+                            <form action="/contact" id="contact-form" method="POST" class="contact-form-items">
+                                @csrf
                                 <div class="row g-4">
                                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                                         <div class="form-clt">
@@ -102,6 +107,8 @@
                                             Gönder <i class="fa-solid fa-arrow-right-long"></i>
                                         </button>
                                     </div>
+
+                                    <div class="form-message col-lg-7 wow fadeInUp" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;"></div>
                                 </div>
                             </form>
                         </div>

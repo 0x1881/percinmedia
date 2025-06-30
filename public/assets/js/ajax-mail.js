@@ -26,10 +26,11 @@
             $(formMessages).addClass('success');
 
             // Set the message text.
-            $(formMessages).text(response);
+            $(formMessages).text(response.message);
 
             // Clear the form.
-            $('#contact-form input, #contact-form textarea').val('');
+            $('#contact-form input[name!="_token"], #contact-form textarea').val('');
+
         })
         .fail(function(data) {
             // Make sure that the formMessages div has the 'error' class.
@@ -38,11 +39,10 @@
 
             // Set the message text.
             if (data.responseText !== '') {
-                $(formMessages).text(data.responseText);
+                $(formMessages).text(data.responseJSON.message);
             } else {
-                $(formMessages).text('Oops! An error occurred and your message could not be sent.');
+                $(formMessages).text('Bir hata oluştu!');
             }
         });
     });
-
 });
