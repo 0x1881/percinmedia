@@ -25,7 +25,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="service-card-items">
                     <h3 class="title">
-                        <a href="/google-ads">
+                        <a href="/hizmetlerimiz/google-ads">
                             Google ADS Danışmanlığı
                         </a>
                     </h3>
@@ -38,7 +38,7 @@
                             Stratejik kampanyalar ve yüksek dönüşüm oranlarıyla reklam bütçenizi en verimli şekilde
                             yönetiyoruz.
                         </p>
-                        <a href="/google-ads" class="service-btn">Daha Fazlasını Öğren <i
+                        <a href="/hizmetlerimiz/google-ads" class="service-btn">Daha Fazlasını Öğren <i
                                 class="fa-solid fa-chevrons-right"></i></a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="service-card-items">
                     <h3 class="title">
-                        <a href="/meta-business">
+                        <a href="/hizmetlerimiz/meta-business">
                             Meta Reklam Yönetimi
                         </a>
                     </h3>
@@ -59,7 +59,7 @@
                             Instagram ve Facebook reklamlarınızı hedef kitlenize göre tasarlayıp görünürlüğünüzü
                             artırıyoruz.
                         </p>
-                        <a href="/meta-business" class="service-btn">Daha Fazlasını Öğren <i
+                        <a href="/hizmetlerimiz/meta-business" class="service-btn">Daha Fazlasını Öğren <i
                                 class="fa-solid fa-chevrons-right"></i></a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="service-card-items">
                     <h3 class="title">
-                        <a href="/website">
+                        <a href="/hizmetlerimiz/website">
                             Web Site Tasarımı
                         </a>
                     </h3>
@@ -80,7 +80,7 @@
                             Hızlı, kullanıcı dostu ve mobil uyumlu web siteleriyle markanıza dijital bir vitrin
                             tasarlıyoruz.
                         </p>
-                        <a href="/website" class="service-btn">Daha Fazlasını Öğren <i
+                        <a href="/hizmetlerimiz/website" class="service-btn">Daha Fazlasını Öğren <i
                                 class="fa-solid fa-chevrons-right"></i></a>
                     </div>
                 </div>

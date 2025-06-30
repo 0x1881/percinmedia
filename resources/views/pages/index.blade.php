@@ -76,7 +76,7 @@
         </div>
         <div class="container">
             <div class="brand-wrapper">
-                <h4 class="brand-title">1k + Brands Trust Us</h4>
+                <h4 class="brand-title">Bize Güvenenler</h4>
                 <div class="swiper brand-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
