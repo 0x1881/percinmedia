@@ -7,7 +7,7 @@
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
                         <a href="/">
-                            <img src="{{ Vite::asset('resources/assets/images/logo/percin-logo.png') }}" alt="logo-img" width="171"" height="44">
+                            <img src="{{ Vite::asset('resources/assets/images/logo/percin-logo.png') }}" alt="logo-img" height="44">
                         </a>
                     </div>
                     <div class="offcanvas__close">
@@ -85,14 +85,14 @@
                 <div class="logo">
                     @if ($headerLogo3)
                         <a href="/" class="header-logo-3">
-                            <img src="{{ Vite::asset("resources/assets/images/logo/percin-logo.png") }}" alt="logo-img" width="171"" height="44">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/new/black-logo.svg") }}" alt="logo-img" height="70">
                         </a>
                     @else
                         <a href="/" class="header-logo">
-                            <img src="{{ Vite::asset("resources/assets/images/logo/percin-logo.png") }}" alt="logo-img" width="171"" height="44">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/new/white-logo.svg") }}" alt="logo-img" height="70">
                         </a>
                         <a href="/" class="header-logo-2">
-                            <img src="{{ Vite::asset("resources/assets/images/logo/percin-logo.png") }}" alt="logo-img" width="171"" height="44">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/new/black-logo.svg") }}" alt="logo-img" height="70">
                         </a>
                     @endif
                 </div>

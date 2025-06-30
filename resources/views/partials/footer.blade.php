@@ -6,7 +6,7 @@
                     <div class="single-footer-widget">
                         <div class="widget-head">
                             <a href="/">
-                                <img src="{{ Vite::asset('resources/assets/img/logo/white-logo.svg') }}" alt="img">
+                                <img src="{{ Vite::asset("resources/assets/img/logo/new/white-logo.svg") }}" alt="logo-img" height="100">
                             </a>
                         </div>
                         <div class="footer-content">
