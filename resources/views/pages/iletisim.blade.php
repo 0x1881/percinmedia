@@ -24,7 +24,7 @@
                         <div class="content">
                             <h3>Ofis</h3>
                             <p>
-                                2464 Royal Ln. Mesa, New Jersey <br> 45463.
+                                Zafer Mah. Bahar Sk. No:2 <br> Bahçelievler / İstanbul
                             </p>
                         </div>
                     </div>
