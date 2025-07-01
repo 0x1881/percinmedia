@@ -14,9 +14,9 @@
                                 Dijital reklam ve web çözümlerinde uzman iş ortağınız.
                             </p>
                             <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+{{--                                <a href="#"><i class="fab fa-facebook-f"></i></a>--}}
+                                <a href="https://www.instagram.com/percinmedia" title="instagram" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/per%C3%A7in-media-917729370" title="linkedin" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-instagram"></i></a>
                             </div>
 
                             <div style="margin-top: 15px; ">

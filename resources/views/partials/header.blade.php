@@ -7,7 +7,7 @@
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
                         <a href="/">
-                            <img src="{{ Vite::asset('resources/assets/images/logo/percin-logo.png') }}" alt="logo-img" height="44">
+                            <img src="{{ Vite::asset("resources/assets/img/logo/new/black-logo.svg") }}" alt="logo-img" height="70">
                         </a>
                     </div>
                     <div class="offcanvas__close">
@@ -17,8 +17,7 @@
                     </div>
                 </div>
                 <p class="text d-none d-xl-block">
-                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat
-                    leo urna eget eros. Duis Aenean a imperdiet risus.
+                    Hedef odaklı reklamlar, özgün web siteleri ve dijital çözümlerle markanızı bir adım öne taşıyoruz.
                 </p>
                 <div class="mobile-menu fix mb-3"></div>
                 <div class="offcanvas__contact">
@@ -29,7 +28,7 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">No: 15 Küçükçekmece/İstanbul</a>
+                                <a target="_blank" href="#">Zafer Mah. Bahar Sk. No:2 Bahçelievler / İstanbul</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -65,10 +64,11 @@
                                     class="fa-regular fa-arrow-up-right"></i></span></a>
                     </div>
                     <div class="social-icon d-flex align-items-center">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+{{--                        <a href="#"><i class="fab fa-facebook-f"></i></a>--}}
+{{--                        <a href="#"><i class="fab fa-twitter"></i></a>--}}
+{{--                        <a href="#"><i class="fab fa-youtube"></i></a>--}}
+                        <a href="https://www.instagram.com/percinmedia" title="instagram" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/per%C3%A7in-media-917729370" title="linkedin" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
