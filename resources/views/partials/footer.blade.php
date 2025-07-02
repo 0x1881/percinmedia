@@ -156,7 +156,7 @@
         <div class="container">
             <div class="footer-wrapper d-flex align-items-center justify-content-between">
                 <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-                    &copy; {{ date('Y') }} Tüm hakları saklıdır. Powered by <a href="https://dijilight.org" style="color: yellow">Dijilight</a>
+                    &copy; {{ date('Y') }} Tüm hakları saklıdır. <span style="opacity: 0;">Powered by <a href="https://dijilight.org" style="color: yellow">Dijilight</a></span>
                 </p>
 
                 <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
