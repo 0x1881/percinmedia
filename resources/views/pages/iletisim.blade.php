@@ -35,7 +35,7 @@
                             <i class="icon-10"></i>
                         </div>
                         <div class="content">
-                            <h3><a href="mailto:iletisim@example.com">iletisim@percinmedia.net</a></h3>
+                            <h3><a href="mailto:iletisim@example.com">info@percinmedia.net</a></h3>
                             <p>
                                 Herhangi bir teklifiniz için bize istediğiniz zaman <br>
                                 e-posta gönderin.

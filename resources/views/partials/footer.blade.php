@@ -15,8 +15,8 @@
                             </p>
                             <div class="social-icon d-flex align-items-center">
 {{--                                <a href="#"><i class="fab fa-facebook-f"></i></a>--}}
-                                <a href="https://www.instagram.com/percinmedia" title="instagram" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://www.linkedin.com/in/per%C3%A7in-media-917729370" title="linkedin" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/percinmedia" title="instagram" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/per%C3%A7in-media-917729370" title="linkedin" rel="nofollow noreferer noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
 
                             <div style="margin-top: 15px; ">
@@ -59,19 +59,19 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="/hizmetlerimiz">
+                                <a href="/hizmetlerimiz/google-ads">
                                     <i class="fa-solid fa-chevrons-right"></i>
                                     Google Ads
                                 </a>
                             </li>
                             <li>
-                                <a href="/hizmetlerimiz">
+                                <a href="/hizmetlerimiz/meta-business">
                                     <i class="fa-solid fa-chevrons-right"></i>
                                     Meta Business
                                 </a>
                             </li>
                             <li>
-                                <a href="/hizmetlerimiz">
+                                <a href="/hizmetlerimiz/website">
                                     <i class="fa-solid fa-chevrons-right"></i>
                                     Website
                                 </a>
@@ -135,7 +135,7 @@
                             <ul class="contact-info">
                                 <li>
                                     <i class="fa-regular fa-envelope"></i>
-                                    <a href="mailto:iletisim@percinmedia.net">iletisim@percinmedia.net</a>
+                                    <a href="mailto:info@percinmedia.net">info@percinmedia.net</a>
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-phone-volume"></i>

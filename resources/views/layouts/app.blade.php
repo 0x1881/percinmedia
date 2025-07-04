@@ -12,6 +12,12 @@
     <meta name="description" content="{{ $meta['description'] }}"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="canonical" href="{{ request()->url() }}"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="PerçinMedia" />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">

@@ -121,7 +121,7 @@
                         </ol>
                         <h2>İletişim</h2>
                         <p>Kişisel verilerinizle ilgili haklarınızı kullanmak veya Gizlilik Politika'mız hakkında daha
-                            fazla bilgi almak için iletisim@percinmedia.net adresinden bizimle iletişime
+                            fazla bilgi almak için info@percinmedia.net adresinden bizimle iletişime
                             geçebilirsiniz.</p>
                         <h2>Onay ve Yürürlük</h2>
                         <p>İnternet sitemiz ile kişisel verilerinizi paylaşmak, tamamen sizin tercihinizdir. İnternet

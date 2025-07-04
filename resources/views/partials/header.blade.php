@@ -36,7 +36,7 @@
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="mailto:iletisim@percinmedia.net"><span>iletisim@percinmedia.net</span></a>
+                                <a href="mailto:info@percinmedia.net"><span>info@percinmedia.net</span></a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">

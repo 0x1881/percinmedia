@@ -99,7 +99,7 @@
                             tarayıcınızın ayarlarını
                             değiştirerek çerezleri reddedebilir veya çerez gönderildiğinde uyarı verecek şekilde
                             ayarlayabilirsiniz. Daha fazla
-                            bilgi için <a href="mailto:iletisim@percinmedia.net">iletisim@percinmedia.net</a> adresinden
+                            bilgi için <a href="mailto:info@percinmedia.net">info@percinmedia.net</a> adresinden
                             bize
                             ulaşabilirsiniz.</p>
                         <h2>Tarayıcı Ayarları</h2>
